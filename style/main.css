@@ -1,0 +1,44 @@
+body {
+    background: #ffe680;
+}
+h1{
+    font-family: Aguafina Script;
+    font-size: 42pt;
+}
+.centered {
+    text-align: center;
+}
+.countries.active {
+    opacity: 0.5 !important;
+}
+.countries{
+    cursor: pointer;
+}
+.worldmap {
+    display: inline-block;
+    margin: 30px;
+    background: lightblue;
+}
+.scatterplot {
+    display: inline-block;
+    margin: 30px;
+    background: white;
+}
+.plots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.axis text {
+    font: 10px sans-serif;
+}
+.axis line, .axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.dot {
+    stroke: #000;
+    cursor: pointer;
+}
